@@ -1,2 +1,2 @@
 # portfolio3
-https://signaturejin.github.io/portfolio3/views/index.ejs
+https://signaturejin.github.io/portfolio3/index.ejs

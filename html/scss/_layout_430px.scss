@@ -1,0 +1,32 @@
+@media screen and (max-width: 430px){
+    //상단영역
+    #header {
+        .h_top {
+            .center {
+                .right_wrap {
+                    .user_wrap {display: none;}
+                }
+            }
+        }
+    }
+    //하단영역
+    #footer {
+        .f_top {
+            .center {
+                > div {font-size: 11px;}
+                .right {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .f_bot {
+            .center {
+                .left {
+                    .f_menu {
+                        li {font-size: 10px;}
+                    }
+                }
+            }
+        }
+    }
+}

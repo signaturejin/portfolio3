@@ -198,7 +198,11 @@
     //하단영역
     #footer {
         .f_top {
-            .center {width: 80%;}
+            .center {
+                width: 80%;
+                flex-direction: column;
+                .right {padding-bottom: 30px;}
+            }
         }
         .f_bot {
             .center {width: 80%;}

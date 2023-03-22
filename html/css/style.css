@@ -2190,6 +2190,9 @@ body {
 #login .center .login_wrap .right #login_form .wrap input:first-child {
   margin-right: 10px;
 }
+#login .center .login_wrap .right #login_form .wrap input::-moz-placeholder {
+  font-size: 13px;
+}
 #login .center .login_wrap .right #login_form .wrap input::placeholder {
   font-size: 13px;
 }
@@ -2555,6 +2558,10 @@ body {
   }
   #footer .f_top .center {
     width: 80%;
+    flex-direction: column;
+  }
+  #footer .f_top .center .right {
+    padding-bottom: 30px;
   }
   #footer .f_bot .center {
     width: 80%;
@@ -3026,5 +3033,19 @@ body {
   }
   #login .center .login_wrap .right #login_form .wrap input {
     width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  #header .h_top .center .right_wrap .user_wrap {
+    display: none;
+  }
+  #footer .f_top .center > div {
+    font-size: 11px;
+  }
+  #footer .f_top .center .right {
+    margin-bottom: 0;
+  }
+  #footer .f_bot .center .left .f_menu li {
+    font-size: 10px;
   }
 }

@@ -1260,7 +1260,7 @@
                         font-size: 15px; line-height: 24px;
                         color: #505050; padding: 0 35px 70px;
                         border-bottom: 1px solid #d9d9d9;
-                        white-space: pre;
+                        white-space: pre-line;
                     }
                 }
                 .btn_wrap {
@@ -1698,7 +1698,7 @@
                         border: none; border-bottom: 2px solid #c2c2c2;
                     }
                     .msg_box {
-                        position: absolute; left: 0; top: 25px;
+                        position: absolute; left: 0; top: 85px;
                     }
                 }
             }

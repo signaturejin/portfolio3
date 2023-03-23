@@ -9,6 +9,84 @@
             }
         }
     }
+    //중간영역
+    #container {
+        //스토어 영역
+        .store_insert_area {
+            .center {
+                #admin_store_form {
+                    .wrap {
+                        flex-direction: column;
+                        label {margin: 0;}
+                        .mg {padding: 20px 0 10px;}
+                        #sido {margin-top: 10px;}
+                    }
+                    .store_btn {width: 100%;}
+                }
+            }
+        }
+        //공지사항 영역
+        .notice_wrap {
+            .right {
+                .center {
+                    .wrap {
+                        #search_form {
+                            #n_category {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                    .notice_list_wrap {
+                        .h_line {
+                            .title {width: 50%;}
+                            .review {width: 20%;}
+                        }
+                        .notice_list {
+                            font-size: 13px;
+                            .notice_title {width: 50%;}
+                            .notice_review {width: 20%;}
+                        }
+                    }
+                }
+            }
+        }
+        //공지사항 상세페이지 영역
+        .detail_page {
+            .right {
+                .center {
+                    .nt_dt_top {
+                        flex-direction: column;
+                        .nt_title {padding-bottom: 7px;}
+                    }
+                }
+            }
+        }
+        //문의사항 목록페이지 영역
+        .qna_list_wrap {
+            .center {
+                .box_wrap {
+                    .h_line {
+                        line-height: 0;
+                        padding: 15px 0;
+                        .h_wrap {
+                            .q {position: relative; top: 10px;}
+                            h3 {line-height: 22px;}
+                        }
+                    }
+                }
+                .user_qna_wrap {
+                    .qna_data_wrap {
+                        .user_qna_line {
+                            line-height: 1;
+                            align-items: center;
+                            padding: 10px 0;
+                            .qna_date {line-height: 18px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
     //하단영역
     #footer {
         .f_top {
@@ -23,7 +101,24 @@
             .center {
                 .left {
                     .f_menu {
-                        li {font-size: 10px; margin-right: 10px;}
+                        li {
+                            font-size: 10px; margin-right: 10px;
+                            a {margin-right: 0;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //회원가입 영역
+    #join {
+        .center {
+            #join_form {
+                .wrap {
+                    flex-direction: column;
+                    .input_wrap {
+                        width: 100%;
+                        input {padding: 0 5px;}
                     }
                 }
             }

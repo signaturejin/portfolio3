@@ -6,7 +6,7 @@
     </script>
 <% } %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +21,8 @@
     <!-- 상단 영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간 영역 -->
-    <div id="container">
-        <div class="qna_list_wrap">
+    <main id="container">
+        <section class="qna_list_wrap">
             <div class="center">
                 <!-- 대표 qna 박스 -->
                 <h2 class="t_title">자주하는 질문</h2>
@@ -84,10 +84,9 @@
                     </div>
                     <a class="qna_link" href="/insert/qna">글쓰기</a>
                 </div>
-                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단 영역 -->
     <%- include("common/footer.ejs") %>
     <!-- js -->

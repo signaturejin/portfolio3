@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,8 @@
     <%- include("common/icon_font.ejs") %>
 </head>
 <body>
-    <div id="container">
-        <div class="notice_form_area">
+    <main id="container">
+        <section class="notice_form_area">
             <div class="center">
                 <form id="admin_notice_form" action="/update/notice" method="post">
                     <!-- 공지사항 번호를 알기 위한 히든태그 -->
@@ -27,7 +27,7 @@
                     <button class="notice_btn" type="submit">공지사항 등록</button>
                 </form>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>

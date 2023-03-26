@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,8 @@
     <!-- 상단 영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간 영역 -->
-    <div id="container">
-        <div class="event_update_area event_form_area">
+    <main id="container">
+        <section class="event_update_area event_form_area">
             <div class="center">
                 <form id="admin_event_form" class="event_area_form" action="/update/event" method="post" enctype="multipart/form-data">
                     <!-- 이벤트 번호를 알기 위한 히든태그 -->
@@ -38,7 +38,7 @@
                     <button class="event_btn" type="submit">이벤트 수정</button>
                 </form>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>

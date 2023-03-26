@@ -6,7 +6,7 @@
     </script>
 <% } %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,15 +21,14 @@
     <!-- 상단영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간영역 -->
-    <div id="container">
-        <div class="notice_wrap">
+    <main id="container">
+        <section class="notice_wrap">
             <!-- 공지사항 왼쪽 메뉴 -->
             <%#- include("common/notice_left.ejs") %>
             <div class="right">
                 <div class="center">
                     <h2 class="title">공지사항</h2>
                     <div class="wrap">
-                        <!-- <div class="total_num"></div> -->
                         <form id="search_form" class="sear_wrap" action="/notice/search" method="get">
                             <select name="n_category" id="n_category">
                                 <option value="notice_title">제목</option>
@@ -69,8 +68,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단영역 -->
     <%- include("common/footer.ejs") %>
     <!-- js -->

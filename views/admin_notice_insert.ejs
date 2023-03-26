@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,8 @@
 <body>
     <!-- 상단영역 -->
     <%- include("common/header.ejs") %>
-    <div id="container">
-        <div class="notice_form_area">
+    <main id="container">
+        <section class="notice_form_area">
             <div class="center">
                 <form id="admin_notice_form" action="/add/notice" method="post">
                     <!-- 공지사항 제목 -->
@@ -51,8 +51,8 @@
                     <% } %>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단영역 -->
     <%- include("common/footer.ejs") %>
 </body>

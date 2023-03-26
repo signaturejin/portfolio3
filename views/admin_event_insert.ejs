@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,8 @@
     <!-- 상단 영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간 영역 -->
-    <div id="container">
-        <div class="event_insert_area event_form_area">
+    <main id="container">
+        <section class="event_insert_area event_form_area">
             <div class="center">
                 <form id="admin_event_form" class="event_area_form" action="/add/event" method="post" enctype="multipart/form-data">
                     <!-- 이벤트 이름 -->
@@ -47,8 +47,8 @@
                     <% } %>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단 영역 -->
     <%- include("common/footer.ejs") %>
 </body>

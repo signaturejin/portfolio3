@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,8 @@
     <!-- 상단영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간 영역 -->
-    <div id="container">
-        <div class="qna_update_wrap qna_area">
+    <main id="container">
+        <section class="qna_update_wrap qna_area">
             <div class="center">
                 <form id="qna_update_form" class="qna_form" action="/user/update/qna" method="post">
                     <!-- 질문 번호를 알기 위한 히든태그 -->
@@ -32,8 +32,8 @@
                     </div>
                 </form>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단 영역 -->
     <%- include("common/footer.ejs") %>
 </body>

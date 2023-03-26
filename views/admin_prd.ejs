@@ -6,7 +6,7 @@
     </script>
 <% } %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +21,8 @@
     <!-- 상단 영역 -->
     <%- include("common/header.ejs") %>
     <!-- 중간 영역 -->
-    <div id="container">
-        <div class="prd_insert_area prd_form_area">
+    <main id="container">
+        <section class="prd_insert_area prd_form_area">
             <div class="center">
                 <form id="prd_form" class="prd_area_form" action="/add/prd" method="post" enctype="multipart/form-data">
                     <!-- admin 외 다른 사람이 글 삭제 / 수정 못하게 하기 위한 태그 -->
@@ -68,8 +68,8 @@
                     <% } %>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <!-- 하단 영역 -->
     <%- include("common/footer.ejs") %>
 </body>

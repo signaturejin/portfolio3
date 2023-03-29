@@ -92,9 +92,7 @@
         .f_top {
             .center {
                 > div {font-size: 11px;}
-                .right {
-                    margin-bottom: 0;
-                }
+                .right {margin-bottom: 0;}
             }
         }
         .f_bot {
@@ -106,6 +104,9 @@
                             a {margin-right: 0;}
                         }
                     }
+                }
+                .right {
+                    .menu {font-size: 12px;}
                 }
             }
         }

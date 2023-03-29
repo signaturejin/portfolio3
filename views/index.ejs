@@ -18,7 +18,7 @@
         <!-- intro 영역 -->
         <section class="intro">
             <div class="center">
-                <article class="slide_wrap">
+                <div class="slide_wrap">
                     <div class="view">
                         <!-- 첫번째 슬라이드 -->
                         <div class="slide_box">
@@ -175,8 +175,8 @@
                             <div class="stop_btn stop"><a href="#"><i class="fa-solid fa-pause"></i></a></div>
                         </div>
                     </div>
-                </article>
-                <article class="intro2_wrap">
+                </div>
+                <div class="intro2_wrap">
                     <section class="tab_wrap">
                         <ul class="tab_menu">
                             <li class="on"><a href="#">빠른조회</a></li>
@@ -188,19 +188,19 @@
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu1-1.png" alt="즉시조회">
-                                        <p class="name">즉시조회</p>
+                                        <h2 class="name">즉시조회</h2>
                                     </a>
                                 </div>
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu1-2.png" alt="휴먼계좌조회">
-                                        <p class="name">휴먼계좌조회</p>
+                                        <h2 class="name">휴먼계좌조회</h2>
                                     </a>
                                 </div>
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu1-3.png" alt="수표조회">
-                                        <p class="name">수표조회</p>
+                                        <h2 class="name">수표조회</h2>
                                     </a>
                                 </div>
                             </div>
@@ -209,25 +209,25 @@
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu2-1.png" alt="조회">
-                                        <p class="name">조회</p>
+                                        <h2 class="name">조회</h2>
                                     </a>
                                 </div>
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu2-2.png" alt="이체">
-                                        <p class="name">이체</p>
+                                        <h2 class="name">이체</h2>
                                     </a>
                                 </div>
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu2-3.png" alt="인증센터">
-                                        <p class="name">인증센터</p>
+                                        <h2 class="name">인증센터</h2>
                                     </a>
                                 </div>
                                 <div class="tab_list">
                                     <a href="#">
                                         <img class="tab_img" src="/img/tab_menu2-4.png" alt="승인결제">
-                                        <p class="name">승인결제</p>
+                                        <h2 class="name">승인결제</h2>
                                     </a>
                                 </div>
                             </div>
@@ -252,10 +252,10 @@
                             </div>
                         </div>
                     </section>
-                </article>
-                <article class="intro3_wrap">
+                </div>
+                <div class="intro3_wrap">
                     <!-- 로그인 / 회원가입 / 로그아웃 영역 -->
-                    <section class="user_wrap">
+                    <div class="user_wrap">
                         <% if(!userData){ %>
                         <div class="login"><a href="/login"><i class="fa-solid fa-unlock-keyhole"></i><span>로그인</span></a></div>
                         <div class="join"><a href="/join"><i class="fa-solid fa-user-plus"></i><span>회원가입</span></a></div>
@@ -263,7 +263,7 @@
                         <div class="user_data"><a href="#"><i class="fa-solid fa-user"></i><%- userData.join_nickname %></a> 님</div>
                         <div class="logout"><a href="/logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>로그아웃</a></div>
                         <% } %>
-                    </section>
+                        </div>
                     <!-- 공지사항 영역 -->
                     <section class="main_notice_wrap">
                         <h2 class="notice_title">공지사항<a class="more" href="/notice"><i class="fa-solid fa-angles-right"></i></a></h2>
@@ -293,7 +293,7 @@
                             <p class="foreign">해외 +82-2-1785-1283</p>
                         </div>
                     </section>
-                </article>
+                </div>
             </div>
         </section>
     </main>

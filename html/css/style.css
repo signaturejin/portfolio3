@@ -2269,7 +2269,8 @@ textarea {
   color: #8b9094;
   padding-bottom: 35px;
 }
-#footer .f_bot .center .right button {
+#footer .f_bot .center .right .menu {
+  color: #000;
   margin-right: 25px;
   border: none;
   background-color: #fff;
@@ -2277,7 +2278,7 @@ textarea {
   border-bottom: 1px solid #888;
   cursor: pointer;
 }
-#footer .f_bot .center .right button i {
+#footer .f_bot .center .right .menu i {
   margin-left: 15px;
 }
 #footer .f_bot .center .right img {
@@ -3113,6 +3114,9 @@ textarea {
   }
   #footer .f_bot .center .left .f_menu li a {
     margin-right: 0;
+  }
+  #footer .f_bot .center .right .menu {
+    font-size: 12px;
   }
   #join .center #join_form .wrap {
     flex-direction: column;
